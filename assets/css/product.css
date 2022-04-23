@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+}
+.main {
+    font-family: Product;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #120821;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.main__wrapper {
+    margin-top: 120px;
+    width: 1000px;
+    display: flex;
+}
+.main__before img {
+    width: 450px;
+}
+.main__title {
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.main__subtitle {
+    line-height: 0px;
+    font-size: 12px;
+}
+.main__price {
+    font-size: 25px;
+}
+.main__quantity {
+    font-size: 12px;
+}
+.main input[type='number'] {
+    height: 20px;
+    width: 40px;
+    padding: 10px;
+}
+.main__block {
+    margin-top: 40px;
+    border-top: 1px solid white;
+    width: 400px;
+}
+.main__block__title {
+    font-size: 20px;
+}

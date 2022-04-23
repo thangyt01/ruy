@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Marlin;
+    src: url(./assets/fonts/MarlinR.otf);
+}
+@font-face {
+    font-family: Product;
+    src: url(./assets/fonts/ProductR.otf);
+}
+@font-face {
+    font-family: Product;
+    font-weight: bold;
+    src: url(./assets/fonts/ProductB.otf);
+}
+.glow-button {
+    width: fit-content;
+    cursor: pointer;
+    padding: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 50px;
+    background-color: #A238FF;
+    box-shadow: 0px 0px 15px #A238FF;
+    transition-duration: 0.5s;
+}
+.glow-button:hover {
+    cursor: pointer;
+    color: #232323;
+    background-color: white;
+    box-shadow: 0px 0px 15px white;
+}
